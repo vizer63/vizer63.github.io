@@ -1,0 +1,255 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.header {
+    height: 60vh;
+    width: 1300px;
+    padding-top: 30px;
+    background: url(/gg.png) center center no-repeat;
+}
+ .About {
+    height: 100vh;
+    margin-bottom: 10px;
+}
+
+.send {
+    height: 30vh;
+    margin-top: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.menu a {
+    margin-right: 60px;
+text-decoration: none;
+padding: 1px 30px;
+color: #ffffff;
+font-size: 15px;
+line-height: 77px;
+letter-spacing: 2px;
+text-transform: uppercase;
+transition: ease-in .50s all;
+}
+.header a:hover {
+background-color: none;
+color: #000000;
+border: 2px solid #000000;
+}
+.menu a:last-child {
+    margin-right: 0px;
+}
+.header-text {
+    text-align: center;
+}
+.header button {
+    margin-top: 230px;
+    cursor: pointer;
+ padding: 1px 30px;
+ color: #ffffff;
+      background-color: transparent ;
+     border: 2px solid #ffffff;
+        font-size: 17px;
+        line-height: 50px;
+        text-transform: uppercase;
+        transition: ease-in .25s all;
+        }
+
+        .header button:hover {
+            background-color: #ffffff;
+            color: #000000;
+            border: 2px solid #000000;
+        }
+
+        .About {
+            display: flex;
+            flex-wrap: nowrap ;
+            justify-content: space-around;
+            align-items: center;
+            border: 2px solid #000000;
+        }
+.about-text span {
+    color: #515151;
+    font-size: 23px;
+
+}
+
+.about-text h2 {
+margin-top: 10px;
+margin-bottom: 30px;
+    color: #000000;
+font-size: 50px;
+}
+
+.about-text p {
+    opacity: 0.71;
+color: #515151;
+font-family: "Open Sans - Semibold";
+font-size: 20px;
+}
+
+.about-text button {
+    margin-top: 40px;
+    cursor: pointer;
+ padding: 1px 30px;
+ color: #000000;
+      background-color: transparent ;
+     border: 2px solid #000000;
+        font-size: 17px;
+        line-height: 50px;
+        text-transform: uppercase;
+        transition: ease-in .25s all;
+        }
+
+        .about-text button:hover {
+            background-color: #000000;
+            color: #ffffff;
+            border: 2px solid #ffffff;
+        }
+
+.company {
+    height: 100vh;
+    margin-top: 200px;
+    margin-bottom: 1px;
+}
+
+ .company-text {
+     text-align: center ;
+ }
+
+ .company-text h2 {
+     color: #000000;
+font-size: 32px;
+font-weight: 700;
+text-transform: uppercase;
+letter-spacing: 7.2px;
+ }
+ .company-text p {
+     margin-top: 36px;
+     margin-bottom: 65px;
+     color: #5b5b5b;
+     font-size: 28px;
+     font-weight: 500;
+     letter-spacing: 4.2px;
+ }
+
+ .company-wrap {
+     display: flex;
+     justify-content: space-around;
+     flex-wrap: wrap;
+ }
+ .company-block h3 {
+     margin-top: 66px;
+     color: #000;
+     font-stretch: 19px;
+     font-weight: 700;
+     text-transform: uppercase;
+     letter-spacing: 6px;
+ }
+
+ .company-block p {
+     margin-top: 35px;
+     margin-bottom: 50px;
+     color: #979595 ;
+     font-stretch: 19px;
+     line-height: 41px;
+     letter-spacing: 3.8px;
+ }
+ .company-block button {
+     padding: 10px 30px ;
+     cursor: pointer;
+     border: #999696;
+     color: #000;
+     font-size: 16px;
+     line-height: 41px;
+     text-transform: uppercase;
+     letter-spacing: 3.2px;
+     transition: ease .25s;
+ }
+ .company-block button:hover {
+     background-color: #7e7b7b;
+ }
+
+ .send-text {
+     margin-right: 110px;
+     margin-top: 0px;
+ }
+.send-text h2 {
+color: #000;
+font-size: 30px;
+font-weight: 500;
+line-height: 41px;
+text-transform: uppercase;
+letter-spacing: 4.2px;
+}
+
+.send-text p {
+    color: #5b5b5b;
+    font-size: 18px;
+    letter-spacing: 2.5px;
+}
+
+input {
+    margin-right: 50px;
+    background: transparent;
+    border: 2px solid #000000 ;
+    padding: 27px 32px;
+    color: #3a4047;
+    font-size: 22px;
+    letter-spacing: 3px
+}
+
+form button {
+    cursor: pointer;
+    padding: 27px 87px;
+    border: none;
+    background-color: #515151;
+    color: white;
+    font-size: 22px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    transition: ease-in .10s;
+}
+
+form button:hover {
+    background-color: #ffffff;
+    color: black;
+    border: 2px solid #000;
+} 
+
+.footer {
+    text-align: center;
+    padding: 95px 0;
+    color: #000;
+    font-size: 18px;
+    text-transform: uppercase;
+    letter-spacing: 6px;
+}
+
+.footer-menu {
+    margin-bottom: 66px;
+}
+
+.footer-menu a{
+    margin-right: 50px;
+    color: #000;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.footer-menu a:first-child {
+    margin-right: 0px;
+}
+
+p:first-child {
+    margin-bottom: 19px;
+}
